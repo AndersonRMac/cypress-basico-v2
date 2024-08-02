@@ -4,7 +4,8 @@
   "description": "Repositório da versão 2 do curso básico de Cypress da Escola Talking About Testing",
   "main": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:open": "cypress open",
+    "test": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/wlsf82/cypress-basico-v2#readme",
   "dependencies": {
     "cypress": "^13.13.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.0"
   }
 }
